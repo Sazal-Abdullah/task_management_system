@@ -72,35 +72,6 @@ style="background: url('{{ asset('frontend/them.jpg') }}') no-repeat center cent
     </section>
 
 
-
-    <!-- Product Section -->
-    <section id="products" class="my-5">
-        <h2 class="text-center text-primary mb-4">Our Products</h2>
-        <div class="row g-4">
-            @forelse ($products as $product)
-            <div class="col-md-3">
-                <div class="card border-0 shadow">
-                    <div class="position-relative">
-                        <img src="{{ asset('storage/' . $product->image) }}" alt="{{ $product->name }}" class="card-img-top" style="height: 300px;  border-radius: 12px;">
-                        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2">-{{ $product->discount }}%</span>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title text-truncate">{{ $product->name }}</h5>
-                        <p><strong>SKU:</strong> {{ $product->sku }}</p>
-                        <p><strong>Price:</strong> <del>${{ number_format($product->selling_price, 2) }}</del></p>
-                        <p class="text-success fw-bold"><strong>Discount Price:</strong> ${{ number_format($product->selling_price - ($product->selling_price * $product->discount / 100), 2) }}</p>
-                        {{-- <a href="#" class="btn btn-success w-100">Add to Cart</a> --}}
-                    </div>
-                </div>
-            </div>
-            @empty
-            <div class="col-12 text-center">
-                <p class="text-muted">No products found.</p>
-            </div>
-            @endforelse
-        </div>
-    </section>
-
     <!-- Services Section -->
     {{-- <section id="services" class="my-5">
         <h2 class="text-center text-primary mb-4">Our Services</h2>

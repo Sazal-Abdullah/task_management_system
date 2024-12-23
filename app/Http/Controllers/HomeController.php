@@ -11,8 +11,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $cartItems = Cart::with('product')->get();
-        $products = Product::with('variations')->get();
-        return view('frontend.index',compact('products','cartItems'));
+
+        return view('frontend.index');
     }
 }
