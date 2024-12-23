@@ -6,11 +6,10 @@
         <div class="app-page-title">
             <div class="card shadow-lg">
                 <div class="card-header bg-primary text-white">
-                    <h3 class="mb-0"> Details</h3>
+                    <h3 class="mb-0"> Task Details</h3>
                 </div>
                 <div class="card-body">
                     <div class="container">
-                        <h1 class="mb-4">Task Details</h1>
                         <div class="card">
                             <div class="card-header">
                                 <h2>{{ $task->title }}</h2>

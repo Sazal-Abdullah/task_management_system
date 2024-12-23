@@ -6,11 +6,10 @@
         <div class="app-page-title">
             <div class="card shadow-lg">
                 <div class="card-header bg-primary text-white">
-                    <h3 class="mb-0"> List</h3>
+                    <h3 class="mb-0">Tasks List</h3>
                 </div>
                 <div class="card-body">
                     <div class="container">
-                        <h1 class="mb-4">Tasks</h1>
                         <a href="{{ route('tasks.create') }}" class="btn btn-primary mb-3">Add New Task</a>
 
                         <form method="GET" action="{{ route('tasks.index') }}" class="mb-3">
