@@ -13,16 +13,17 @@
                 </div>
                 <div class="card-body">
                     <div class="container">
-                        <form method="GET" action="{{ route('tasks.index') }}" class="d-flex justify-content-end mb-4">
-                            <label for="status" class="me-2 align-self-center fw-bold">Filter by Status:</label>
-                            <select name="status" id="status" class="form-select w-auto" onchange="this.form.submit()">
-                                <option value="">All</option>
-                                <option value="Pending" {{ request('status') == 'Pending' ? 'selected' : '' }}>Pending</option>
-                                <option value="In Progress" {{ request('status') == 'In Progress' ? 'selected' : '' }}>In Progress</option>
-                                <option value="Completed" {{ request('status') == 'Completed' ? 'selected' : '' }}>Completed</option>
-                            </select>
+                        <form method="GET" action="{{ route('tasks.index') }}" class="d-flex justify-content-end align-items-center mb-4">
+                            <label for="status" class="me-3 fw-bold text-dark">Filter by Status:</label>
+                            <div class="input-group w-auto">
+                                <select name="status" id="status" class="form-select" onchange="this.form.submit()">
+                                    <option value="">All</option>
+                                    <option value="Pending" {{ request('status') == 'Pending' ? 'selected' : '' }}>Pending</option>
+                                    <option value="In Progress" {{ request('status') == 'In Progress' ? 'selected' : '' }}>In Progress</option>
+                                    <option value="Completed" {{ request('status') == 'Completed' ? 'selected' : '' }}>Completed</option>
+                                </select>
+                            </div>
                         </form>
-
                         <div class="table-responsive">
                             <table class="table table-striped table-hover align-middle">
                                 <thead class="table-dark">
