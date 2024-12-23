@@ -35,6 +35,8 @@
             <ul class="vertical-nav-menu">
                 <li class="app-sidebar__heading">Dashboards</li>
 
+                <li class="app-sidebar__heading">Menu</li>
+
                 <li>
                     <a href="#">
                         <i class="fa-brands fa-product-hunt metismenu-icon "></i>
