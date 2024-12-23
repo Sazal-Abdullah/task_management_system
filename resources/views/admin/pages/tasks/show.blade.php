@@ -17,6 +17,8 @@
                             </div>
                             <div class="card-body">
                                 <p><strong>Description:</strong> {{ $task->description }}</p>
+                                <p><strong>Assigned To:</strong> {{ $task->user->name }}</p>
+                                <p><strong>Create Date:</strong> {{ $task->created_at->format('d-M-Y') }}</p>
                                 <p><strong>Status:</strong>
                                     <span class="badge
                                         @if($task->status == 'Pending') badge-warning
