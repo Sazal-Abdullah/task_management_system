@@ -5,24 +5,18 @@
 <main class="container my-5">
 
     <!-- Hero Section -->
-    {{-- <section id="hero" class="text-center py-5 mb-5" style="background: linear-gradient(90deg, #4facfe, #00f2fe); color: white; border-radius: 12px;">
-        <img src="{{ asset('frontend/them.jpg')}}" alt="">
-        <h1 class="display-4 fw-bold">Welcome to My Laravel App</h1>
-        <p class="lead">Your one-stop solution for all your needs.</p>
+    <section id="hero" class="text-center py-5 mb-5" style="background: linear-gradient(90deg, #4facfe, #00f2fe); color: white; border-radius: 12px;">
+        <img src="" alt="">
+        <h1 class="display-4 fw-bold">Welcome to CloudCore</h1>
+        <p class="lead">
+            Simplify Digital
+            Experience.</p>
         <a href="#services" class="btn btn-light btn-lg shadow">Explore Services</a>
-    </section> --}}
+    </section>
     <!-- Hero Section -->
-{{-- <section id="hero" class="text-center py-5 mb-5"
-style="background: url('{{ asset('frontend/them.jpg') }}') no-repeat center center/cover; color: white; border-radius: 12px;">
-<div class="container">
-    <h1 class="display-4 fw-bold">Welcome to My Laravel App</h1>
-    <p class="lead">Your one-stop solution for all your needs.</p>
-    <a href="#services" class="btn btn-light btn-lg shadow">Explore Services</a>
-</div>
-</section> --}}
 
 <!-- Hero Section -->
-<section id="hero" class="text-center py-5 mb-5 position-relative"
+{{-- <section id="hero" class="text-center py-5 mb-5 position-relative"
     style="background: url('{{ asset('frontend/them.jpg') }}') no-repeat center center/cover; color: white; border-radius: 12px; overflow: hidden;">
     <div class="hero-overlay"
         style="position: absolute; top: 0; left: 0; height: 700px; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); border-radius: 12px;">
@@ -32,28 +26,10 @@ style="background: url('{{ asset('frontend/them.jpg') }}') no-repeat center cent
         <p class="lead">Your one-stop solution for all your needs.</p>
         <a href="#services" class="btn btn-light btn-lg shadow">Explore Services</a>
     </div>
-</section>
+</section> --}}
 
 
 
-    <!-- About Us Section -->
-    {{-- <section id="about" class="my-5">
-        <h2 class="text-center text-primary mb-4">About Us</h2>
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <p class="text-center">We are a team of professionals providing excellent services to our customers. Our mission is to bring you the best solutions and products tailored to your needs. Join us on this journey towards excellence.</p>
-            </div>
-        </div>
-    </section> --}}
-    {{-- <section id="about" class="my-5">
-        <h2 class="text-center text-primary mb-4">About Me</h2>
-        <div class="row justify-content-center">
-            <div class="col-md-8 text-center">
-                <p class="lead">I am <strong>Sazal Abdullah</strong>, a passionate <strong>Full Stack Developer</strong> specializing in <strong>PHP</strong> and <strong>Laravel</strong>.</p>
-                <p>With a commitment to delivering high-quality, tailored solutions, I strive to help businesses achieve their goals through efficient and scalable web applications. Let's work together to turn your ideas into reality!</p>
-            </div>
-        </div>
-    </section> --}}
     <section id="about" class="my-5">
         <h2 class="text-center text-primary mb-4">About Me</h2>
         <div class="row justify-content-center">
@@ -72,39 +48,7 @@ style="background: url('{{ asset('frontend/them.jpg') }}') no-repeat center cent
     </section>
 
 
-    <!-- Services Section -->
-    {{-- <section id="services" class="my-5">
-        <h2 class="text-center text-primary mb-4">Our Services</h2>
-        <div class="row text-center g-4">
-            <div class="col-md-4">
-                <div class="card border-0 shadow">
-                    <img src="https://via.placeholder.com/300" class="card-img-top rounded-top" alt="Service 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Restaurant Website Development</h5>
-                        <p class="card-text">Description of Service 1. We offer high-quality products and excellent customer support.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card border-0 shadow">
-                    <img src="https://via.placeholder.com/300" class="card-img-top rounded-top" alt="Service 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Service 2</h5>
-                        <p class="card-text">Description of Service 2. Our expertise ensures your satisfaction with every purchase.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card border-0 shadow">
-                    <img src="https://via.placeholder.com/300" class="card-img-top rounded-top" alt="Service 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Service 3</h5>
-                        <p class="card-text">Description of Service 3. We are committed to providing the best service with a smile.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
+
     <section id="services" class="my-5">
         <h2 class="text-center text-primary mb-4">Our Services</h2>
         <div class="row text-center g-4">
