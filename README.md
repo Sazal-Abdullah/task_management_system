@@ -1,6 +1,6 @@
 # Local Installation
 
-run git clone https://github.com/Sazal-Abdullah/test1.git
+run git clone https://github.com/Sazal-Abdullah/task_management_system.git
 
 cd repository_name
 
